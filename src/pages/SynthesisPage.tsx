@@ -37,7 +37,7 @@ export function SynthesisPage() {
 
       <section className="mb-24 pt-12 border-t border-ink">
         <h2 className="text-5xl md:text-[6vw] leading-[0.9] font-black tracking-tighter uppercase mb-12">INTERVIEWEES</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
           {interviewees.map((person) => (
             <Link key={person.id} href={`/interviewee/${person.id}`}>
               <a className="group block cursor-pointer group hover:-translate-y-1 transition-transform">

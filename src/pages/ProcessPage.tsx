@@ -13,7 +13,7 @@ export function ProcessPage() {
         </h1>
         
         <p className="text-xl md:text-2xl font-medium leading-tight max-w-4xl border-t border-ink pt-8">
-          The reality of field research is that assumptions are broken. Here are the process notes and emerging questions from our four researchers.
+          The reality of field research is that assumptions are broken. Here are the process notes and emerging questions from our three researchers.
         </p>
       </div>
 

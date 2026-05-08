@@ -14,7 +14,7 @@ export function IntervieweesPage() {
         </h1>
         
         <p className="text-xl md:text-2xl font-medium leading-tight max-w-4xl border-t border-ink pt-8">
-          Four designers acting as architects of immaterial experiences. Explore their distinct philosophies, contradictions, and the hidden impacts of their work.
+          Three practitioners — an event designer, a beauty brand scaler, a museum curator — whose work shapes culture far beyond its explicit deliverables. Explore their philosophies, contradictions, and the hidden impacts of what they make.
         </p>
       </div>
 

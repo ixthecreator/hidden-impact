@@ -279,20 +279,20 @@ export const interviewees: Interviewee[] = [
 
 export const synthesisData: Synthesis = {
   groupFindings: {
-    sharedPatterns: "Across all three interviews, a central finding emerged: these practitioners do not primarily view themselves as creating discrete objects — a brand, a party, an exhibition — but as architects of immaterial experiences, hierarchies, and desires. Whether it is Khyati Patel translating a family's emotion into temporary space, Chen Z assembling artworks into an argument that manufactures institutional legitimacy, or a beauty brand scaler drawing a categorical line between conceptual authorship and technical execution, design at this scale operates as an invisible infrastructure that governs how people move, what they value, and who gets credited.",
-    productiveDisagreements: "A key tension ran across all three conversations: how honestly does a practitioner name the systems they reproduce while benefiting from them? Khyati aestheticized the invisibility of her build crew as a craft virtue; the beauty brand scaler granted execution its own artistry in language while withholding it in attribution; Chen Z named the spousal subsidy and the junior researcher's erased credit — and then explained why neither could structurally change. All three demonstrated awareness of the hidden impacts of their work. None resolved the contradiction.",
+    sharedPatterns: "Across all three interviews, a central finding emerged: invisible labor is not an accident of these industries — it is load-bearing. Khyati Patel's male build crews, who construct the event space overnight and disappear before guests arrive; the beauty brand scaler's technical executors, whose craftsmanship is granted its own artistry in language but not in credit; Chen Z's junior researchers, whose arguments enter shows under his name only — in each case, the practitioner we interviewed was aware of the dynamic, named it, and continued to reproduce it. The polished surface of designed experience depends on labor that is structurally required to stay invisible.",
+    productiveDisagreements: "The three conversations diverged most sharply on the question of whether awareness constitutes accountability. Khyati Patel aestheticized the invisibility of her build crew as craft — 'sometimes the goal is for it to just disappear' — without theorizing the overnight labor condition underneath. The beauty brand scaler insisted that execution is 'an art form entirely of its own' while maintaining that the conceptual originator is the designer. Chen Z went furthest: he named the spousal subsidy, the erased researcher, the classmate who died — and then explained, without resolving, why none of it could structurally change. Naming the problem was, for all three, the boundary of what they were willing or able to do.",
     crossCuttingThemes: [
-      "The Aesthetics of Control",
-      "Invisible Labor in Lived Spaces",
-      "Translating Identity for the Market",
-      "The Commodification of Experience"
+      "Invisible Labor as Infrastructure",
+      "Authorship Without Attribution",
+      "Survival Economics of Creative Fields",
+      "Manufactured Legitimacy"
     ]
   },
   emergingQuestions: [
-    "How can designers make their invisible infrastructures visible to the public?",
-    "When does curation cross over into erasure?",
-    "Are all designed experiences inherently manipulative?",
-    "How can we intervene in systems that are designed to feel natural or inevitable?"
+    "When a practitioner names the invisible labor their work depends on but cannot change the structure — is that critique, or is it cover?",
+    "Who would need to be in the room for these conversations to produce different answers?",
+    "What would it take for the people whose labor disappears before the guests arrive to be recognized as designers of that disappearance?",
+    "If legitimacy is manufactured — in beauty branding, in museum curation, in event design — who controls the means of manufacture, and who is excluded from them?"
   ],
-  designOutputRationale: "The website must reflect the tension between the polished surface of these professions and their messy, complex impact. We will use a clean, editorial layout—evoking the aesthetic authority of the spaces these designers inhabit—but disrupt it with raw process notes, marginalia, and stark, isolated quotes. The navigation will be driven by the cross-cutting themes rather than just the individuals, forcing the viewer to see the structural connections uniting fashion, events, and institutional curation."
+  designOutputRationale: "The website uses the aesthetic vocabulary of the institutions these practitioners inhabit — editorial clarity, clean hierarchy, authoritative whitespace — to present research that undermines those same aesthetics. The form is the argument: a site that looks like a finished exhibition is itself a designed surface, and the process notes, contradictions, and open questions are the labor that built it, visible only if you look."
 };
