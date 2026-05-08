@@ -25,6 +25,19 @@ export function IntervieweePage() {
         </div>
       </div>
 
+      {person.imageAssets.length > 0 && (
+        <div className="mb-12 border border-ink">
+          <img
+            src={`${import.meta.env.BASE_URL}images/${person.imageAssets[0].filename}`}
+            alt={person.imageAssets[0].altText}
+            className="w-full max-h-[60vh] object-cover object-top"
+          />
+          <p className="text-xs font-medium uppercase tracking-widest text-ink/50 px-4 py-3 border-t border-ink">
+            {person.imageAssets[0].caption}
+          </p>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 border-t border-ink pt-12">
         
         {/* Main Content */}

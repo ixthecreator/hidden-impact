@@ -95,7 +95,14 @@ export const interviewees: Interviewee[] = [
         "marketing and operations staff cast as implementers rather than originators"
       ]
     },
-    imageAssets: [],
+    imageAssets: [
+      {
+        filename: "charlie.png",
+        caption: "Creative Director and Brand Scaler, Beauty Industry.",
+        suggestedUse: "hero image",
+        altText: "Portrait of the interviewee, a creative director and brand scaler in the beauty industry."
+      }
+    ],
     openQuestions: [
       "If technical execution is 'an art form entirely of its own,' why does the executor not also count as a designer of that form?",
       "How does his framework, applied to a beauty industry that depends on formulators, packaging engineers, and supply-chain craftspeople, redistribute or withhold credit in practice?",
@@ -167,7 +174,14 @@ export const interviewees: Interviewee[] = [
         "children whose early sensory memories are shaped by designed environments"
       ]
     },
-    imageAssets: [],
+    imageAssets: [
+      {
+        filename: "khyati-patel.png",
+        caption: "Khyati Patel, Founder of The Drama Queen Events, Mumbai.",
+        suggestedUse: "hero image",
+        altText: "Portrait of Khyati Patel, founder of The Drama Queen Events."
+      }
+    ],
     openQuestions: [
       "How would Khyati's account of invisible labor change if the conversation included one of the men who build her structures, rather than only the designer who directs them?",
       "If Indian cultural ritual is design's starting point rather than a constraint, what happens when clients arrive with London or Dubai references that conflict with that ritual — whose vision actually wins, and how often?",
@@ -245,7 +259,14 @@ export const interviewees: Interviewee[] = [
         "Long Museum audiences encountering international contemporary art curated through a returnee's translational sensibility"
       ]
     },
-    imageAssets: [],
+    imageAssets: [
+      {
+        filename: "chen-z.png",
+        caption: "Chen Z, Senior Curator, Long Museum Shanghai.",
+        suggestedUse: "hero image",
+        altText: "Portrait of Chen Z, senior curator at Long Museum Shanghai."
+      }
+    ],
     openQuestions: [
       "If 'legitimacy is manufactured,' what does it mean that the manufacturers of curatorial legitimacy are simultaneously the most candid critics of how that manufacturing works?",
       "What would change in Chinese curatorial practice if the gendered, household-economic subsidy structure Chen names became publicly speakable rather than a 'dirty open secret'?",
@@ -258,8 +279,8 @@ export const interviewees: Interviewee[] = [
 
 export const synthesisData: Synthesis = {
   groupFindings: {
-    sharedPatterns: "Across all four interviews, a central finding emerged: these designers do not primarily view themselves as creating discrete objects (a magazine, a party, an exhibition, a shirt), but as architects of immaterial experiences and desires. Whether it's the Vogue Art Director 'designing the feeling of lack' or the Event Planner engineering 'social choreography,' design at this scale operates as an invisible infrastructure that governs how people move, what they value, and who they aspire to be.",
-    productiveDisagreements: "A key tension arose regarding the honesty of the design process. The Concept Designer explicitly embraced the artificiality of their work ('manufactured nostalgia'), while the Event Planner insisted their engineered environments facilitated 'genuine' connection. Furthermore, the Long Museum Curator grappled with the ethical weight of their institutional power, whereas the Vogue Art Director largely accepted commercial imperatives as natural law. These disagreements highlight varying levels of comfort with design as a manipulative force.",
+    sharedPatterns: "Across all three interviews, a central finding emerged: these practitioners do not primarily view themselves as creating discrete objects — a brand, a party, an exhibition — but as architects of immaterial experiences, hierarchies, and desires. Whether it is Khyati Patel translating a family's emotion into temporary space, Chen Z assembling artworks into an argument that manufactures institutional legitimacy, or a beauty brand scaler drawing a categorical line between conceptual authorship and technical execution, design at this scale operates as an invisible infrastructure that governs how people move, what they value, and who gets credited.",
+    productiveDisagreements: "A key tension ran across all three conversations: how honestly does a practitioner name the systems they reproduce while benefiting from them? Khyati aestheticized the invisibility of her build crew as a craft virtue; the beauty brand scaler granted execution its own artistry in language while withholding it in attribution; Chen Z named the spousal subsidy and the junior researcher's erased credit — and then explained why neither could structurally change. All three demonstrated awareness of the hidden impacts of their work. None resolved the contradiction.",
     crossCuttingThemes: [
       "The Aesthetics of Control",
       "Invisible Labor in Lived Spaces",

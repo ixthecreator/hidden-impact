@@ -43,9 +43,17 @@ export function SynthesisPage() {
               <a className="group block cursor-pointer group hover:-translate-y-1 transition-transform">
                 <div className="aspect-[4/3] sm:aspect-square bg-paper-dim mb-4 overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-300 border border-ink">
                   <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/20 transition-colors z-10 mix-blend-multiply" />
-                  <div className="absolute inset-0 flex items-center justify-center text-9xl font-black text-ink/10 group-hover:scale-110 transition-transform duration-500">
-                    {person.displayName.charAt(0)}
-                  </div>
+                  {person.imageAssets.length > 0 ? (
+                    <img
+                      src={`${import.meta.env.BASE_URL}images/${person.imageAssets[0].filename}`}
+                      alt={person.imageAssets[0].altText}
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center text-9xl font-black text-ink/10 group-hover:scale-110 transition-transform duration-500">
+                      {person.displayName.charAt(0)}
+                    </div>
+                  )}
                 </div>
                 <h3 className="text-3xl font-black tracking-tighter uppercase leading-[1] mb-2 group-hover:text-ink/70">
                   {person.displayName}
