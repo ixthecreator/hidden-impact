@@ -178,53 +178,81 @@ export const interviewees: Interviewee[] = [
   },
   {
     id: "long-museum-curator",
-    displayName: "Curator, Long Museum",
-    interviewerName: "Student C",
-    interviewDate: "2026-03-18",
-    interviewFormat: "hybrid",
-    interviewDurationMinutes: 90,
-    anonymized: false,
-    realNameIfNotAnonymized: "Chen Wei",
+    displayName: "Senior Curator, Long Museum Shanghai",
+    interviewerName: "Parsons Student",
+    interviewDate: "April 2026",
+    interviewFormat: "video call",
+    interviewDurationMinutes: 38,
+    anonymized: true,
+    realNameIfNotAnonymized: null,
     summary: {
-      oneLine: "Private institutional curation acts as a translation layer between local heritage and global art markets.",
-      shortAbstract: "The interview focused on the interpretation of art within a private museum setting in Shanghai. The curator discussed the nuances of institutional politics and the role of the museum in shaping cultural memory. The researcher was surprised by the heavy reliance on Western art-school frameworks to validate Chinese contemporary art."
+      oneLine: "A senior curator delivers a survival manual instead of a worldview, naming the spousal income, commercial detours, and ego pivots that quietly fund curatorial freedom.",
+      shortAbstract: "Chen Z, a senior curator at Long Museum Shanghai and Yale-trained returnee artist who switched tracks in his early thirties, was interviewed by a Parsons student preparing to enter the same field. The conversation pivoted quickly from theoretical questions about curatorial authorship to the concrete economics of survival — Chen revealed that no interviewer had ever asked him about money before, and proceeded to detail how he made his first apartment down-payment from a real estate consulting gig, how his spouse's finance income subsidizes his career, and how, of his ten Chinese Yale classmates who returned, two are stars, three are struggling, two pivoted, two vanished, and one died by suicide. He framed the interview as a 'map,' not a path."
     },
     persona: {
-      background: "Returnee Chinese curator with a background in US art schools. Now navigates the complex landscape of private funding and government regulations in Shanghai's West Bund.",
-      designPhilosophy: "Approaches exhibitions as acts of 'translational identity.' Seeks to present local narratives in a visual vocabulary that is legible to the international art establishment.",
-      voice: "Academic and reflective, frequently code-switching between English critical theory ('relational aesthetics', 'hegemony') and Shanghainese colloquialisms when discussing local realities.",
-      contradictions: "Advocated for decolonizing the museum space, but admitted that securing funding and prestige still requires adhering to Western standards of exhibition design."
+      background: "Chen Z is a senior curator at Long Museum Shanghai (privately funded, in the West Bund, founded by collector-couple Liu Yiqian and Wang Wei) and co-curator of the museum's biennial. Born 1981 in Pudong, he graduated from Yale in 2007 and returned to Shanghai in early 2008, working as a photographer and video artist out of a shared studio at M50 on Mogan Road for two years before joining UCCA Beijing in 2010, where he stayed four years. He bought his first apartment at 32, financed by a commercial art-consulting project rather than curatorial salary.",
+      designPhilosophy: "He frames the curator's role as that of an editor rather than a writer — assembling existing works into a relationship that produces new meaning, but never claiming the artist's authorship. His operative principle is that the work is hard and the curatorial framework is soft: when concept and work conflict, the framework yields, not the work. He treats curatorial writing as 'a staircase, not the building' — an entry into the work, not a competing performance. Most distinctively, he insists that the field is sustained less by curatorial vision than by endurance, and that legitimacy is manufactured rather than innate.",
+      voice: "Plain, unflinching, willing to puncture his own positions mid-sentence. He moves fluidly between three registers: Mandarin for substantive content, italicized English specialist terms (curatorial, site-specific, creative desire, aggressive) absorbed from Yale and the international art world, and Shanghainese for emotional intensity or self-mockery (侬想想看 — 'you think about it'; 戆度 — 'what an idiot'). He uses long pauses deliberately, asks the interviewer to be careful how things get cited, and rejects industry vocabulary like 'groundbreaking' as hypocritical performance.",
+      contradictions: "He critiques curators who 'claim the artist's authorship' through self-foregrounding writing — then admits 'I sometimes catch myself doing it.' He names spousal financial subsidy as the industry's open secret, but frames his own wife's finance career as personal honesty rather than structural critique. He acknowledges his junior researchers contribute core arguments to his shows, then explains why their names cannot appear alongside his — without resolving whether the institution itself should change."
     },
-    themes: ["translational identity", "curatorial authorship", "institutional friction"],
+    themes: ["manufactured legitimacy", "invisible labor", "diasporic depreciation", "survival economics", "editor not author", "industry hypocrisy"],
     quotableLines: [
       {
-        quote: "We are translating our history not just for the West, but for a local public that has been taught to look at art through a Western lens.",
-        context: "Discussing the intended audience for a recent historical retrospective.",
-        themeTag: "translational identity"
+        quote: "My need to be seen was bigger than my need to create. [原文：我对'被看到'的需求，比我对'创作'的需求更强。]",
+        context: "The moment that pushed him from artist into curator: standing in the gallery during the opening of a small show on early Chinese video art he had curated in his second year at UCCA, and feeling stronger completion than he ever had from his own work.",
+        themeTag: "editor not author"
+      },
+      {
+        quote: "Neither side is fully yours. [原文：两边都不完全是你的。]",
+        context: "On the simultaneous depreciation of the 'returnee' label inside China and the 'out of touch' status that accumulates in Western discourse after returning home.",
+        themeTag: "diasporic depreciation"
+      },
+      {
+        quote: "The first time I paid the down payment on an apartment myself, I was 32. And it wasn't curatorial money. It was money from a commercial project. [原文：我32岁那年，第一次自己付清房子的首付——是用一个商业项目赚的钱，不是策展。]",
+        context: "Disclosed in answer to a question about how he supported himself in his first years back in China, prefaced by his observation that no interviewer had ever asked him about money before.",
+        themeTag: "survival economics"
+      },
+      {
+        quote: "The artist wins. The artist always wins. [原文：艺术家赢。永远是艺术家赢。]",
+        context: "His simple operating principle, arrived at after fifteen years, for handling conflicts between his curatorial concept and an artist's intuition about her own work.",
+        themeTag: "editor not author"
+      },
+      {
+        quote: "Legitimacy isn't innate. It's manufactured. [原文：它的合法性不是天然的，是被制造出来的。]",
+        context: "On how a private museum constructs the legitimacy of its biennial — through international co-curators, the seriousness of the artist list, and longevity across editions.",
+        themeTag: "manufactured legitimacy"
+      },
+      {
+        quote: "A lot of people in this industry who 'look like they're doing fine' have a partner who isn't in this industry. [原文：很多在这个行业里'看起来过得还行'的人，背后都有一个不在这个行业里的伴侣。]",
+        context: "Volunteered after he disclosed that his wife works in finance, in answer to a question about whether his current income matched what twenty-something him imagined for forty-five.",
+        themeTag: "invisible labor"
+      },
+      {
+        quote: "This industry is bad at goodbyes. We're only good at openings. [原文：这个行业不善于告别。我们只擅长开幕。]",
+        context: "On how curators, gallerists, and artists who leave the field do so silently — no farewell essay, no statement, no memorial — visible only through retrospective social-media absence.",
+        themeTag: "industry hypocrisy"
       }
     ],
     hiddenImpact: {
-      intendedOutput: "A coherent curatorial narrative linking a private collection of contemporary Chinese art to global movements.",
-      actualImpact: "Legitimizes private wealth as a steward of public cultural memory. It subtly redefines Chinese contemporary art by prioritizing works that fit into an easily exported, translation-friendly global aesthetic.",
+      intendedOutput: "He produces curated exhibitions and biennials at Long Museum Shanghai — assembling existing artworks into legible curatorial arguments, mediating between artists, the founder's collection, and international peers, and constructing the institutional legitimacy of a privately funded museum's biennial program.",
+      actualImpact: "Beyond the exhibitions themselves, his work shapes which Chinese contemporary artists enter international circulation through biennial inclusion, mediates the founder's collection logic into critically defensible curatorial arguments (and vice versa, translating Western contemporary art into a private collector's grammar), and transmits to a younger generation a candid account of how the field actually operates economically — including the spousal income, parental subsidy, and commercial detours that quietly underwrite curatorial freedom. He also reproduces, even while naming, the field's credit hierarchy in which junior researchers' arguments get absorbed into the lead curator's authorship.",
       whoIsAffected: [
-        "local artists adjusting their practice for institutional visibility",
-        "Shanghai residents visiting the West Bund cultural district",
-        "the international art market assessing the value of these works"
+        "Chinese contemporary artists whose international circulation depends on biennial inclusion",
+        "junior curators and researchers whose arguments enter shows under his name only",
+        "art-world spouses whose non-art incomes quietly subsidize their partners' careers",
+        "Yale-, RCA-, and Parsons-trained students considering a return to China's art field",
+        "the founder's collection, whose private taste sets the museum's gravitational field",
+        "Long Museum audiences encountering international contemporary art curated through a returnee's translational sensibility"
       ]
     },
-    imageAssets: [
-      {
-        filename: "gallery_longmuseum.jpg",
-        caption: "Raw concrete exhibition halls of the Long Museum.",
-        suggestedUse: "hero image",
-        altText: "A massive, vaulted concrete gallery space with minimal lighting and a single large painting on the far wall."
-      }
-    ],
+    imageAssets: [],
     openQuestions: [
-      "Can a private museum truly serve the public interest, or does it inevitably serve the legacy of its founders?",
-      "How does the architecture of the Long Museum dictate the kind of art that can be shown?"
+      "If 'legitimacy is manufactured,' what does it mean that the manufacturers of curatorial legitimacy are simultaneously the most candid critics of how that manufacturing works?",
+      "What would change in Chinese curatorial practice if the gendered, household-economic subsidy structure Chen names became publicly speakable rather than a 'dirty open secret'?",
+      "Chen frames endurance as how legitimacy accumulates, but his own data — one classmate's suicide, two vanished — shows endurance has a survivorship cost. How should a research-ethics framework account for the people who could not endure?",
+      "When a curator's Yale-derived 'critical' reflexes have to be partially unlearned to function in China, what concept of critique survives that unlearning, and what is lost?"
     ],
-    processNotes: "The interviewer recognized how their own Western-centric education influenced the questions they asked, prompting a necessary pivot during the conversation to center local perspectives."
+    processNotes: "The interview's biggest methodological lesson was that I had inherited the academy's habit of aestheticizing curatorial labor while ignoring its material base. My questions were initially organized around authorship; Chen reorganized them around economics within the first ten minutes. The Q2.5 disclosure that no interviewer had ever asked him about money should be read as a critique of the field's interview conventions, not just a personal admission. I also chose to translate the original Mandarin myself rather than send it to an external translator — this gave me more access to register and to the Shanghainese moments, but it means my translation choices are an interpretive act rather than a neutral one."
   },
   {
     id: "polo-concept-designer",
