@@ -179,7 +179,7 @@ export const interviewees: Interviewee[] = [
   {
     id: "long-museum-curator",
     displayName: "Senior Curator, Long Museum Shanghai",
-    interviewerName: "Parsons Student",
+    interviewerName: "IX Sun",
     interviewDate: "April 2026",
     interviewFormat: "video call",
     interviewDurationMinutes: 38,
@@ -254,56 +254,6 @@ export const interviewees: Interviewee[] = [
     ],
     processNotes: "The interview's biggest methodological lesson was that I had inherited the academy's habit of aestheticizing curatorial labor while ignoring its material base. My questions were initially organized around authorship; Chen reorganized them around economics within the first ten minutes. The Q2.5 disclosure that no interviewer had ever asked him about money should be read as a critique of the field's interview conventions, not just a personal admission. I also chose to translate the original Mandarin myself rather than send it to an external translator — this gave me more access to register and to the Shanghainese moments, but it means my translation choices are an interpretive act rather than a neutral one."
   },
-  {
-    id: "polo-concept-designer",
-    displayName: "Concept Designer, Polo Ralph Lauren",
-    interviewerName: "Student D",
-    interviewDate: "2026-03-20",
-    interviewFormat: "phone",
-    interviewDurationMinutes: 45,
-    anonymized: true,
-    realNameIfNotAnonymized: null,
-    summary: {
-      oneLine: "Brand world-building relies on the meticulous fabrication of a non-existent, idealized past.",
-      shortAbstract: "This interview explored the mechanics of identity manufacturing through fashion. The designer explained how moodboards and mockups are used to construct the 'Polo lifestyle.' The major revelation was that the heritage they are designing isn't historical, but entirely synthetic—a hyper-real simulacrum of Americana."
-    },
-    persona: {
-      background: "Studied illustration before moving into concept design. Now spends days sourcing vintage references and building the narrative frameworks that dictate the seasonal collections.",
-      designPhilosophy: "Views their work as 'manufactured nostalgia.' They are not producing clothes; they are producing the myth of the person who wears the clothes.",
-      voice: "Evocative and deeply visual. Speaks in cinematic terms ('mise-en-scène', 'character study', 'the establishing shot') when describing retail layouts or ad campaigns.",
-      contradictions: "Acknowledged that the Americana they build is rooted in exclusivity and often erasure, yet genuinely loves and defends the emotional comfort the aesthetic provides."
-    },
-    themes: ["manufactured nostalgia", "identity fabrication", "synthetic heritage"],
-    quotableLines: [
-      {
-        quote: "We don't look at archives to find out what happened. We look at archives to figure out what should have happened.",
-        context: "Explaining the difference between historical research and concept research.",
-        themeTag: "manufactured nostalgia"
-      }
-    ],
-    hiddenImpact: {
-      intendedOutput: "A season-defining lookbook and retail rollout plan based on a specific thematic narrative (e.g., 'Nantucket 1974').",
-      actualImpact: "Commodifies class identity and historical nostalgia. It establishes a dominant, often whitewashed version of American heritage as the global standard for classic style, marginalizing other narratives.",
-      whoIsAffected: [
-        "consumers buying into the accessible entry points of the brand",
-        "retail workers tasked with performing the brand identity",
-        "communities whose actual histories are flattened into aesthetic moodboards"
-      ]
-    },
-    imageAssets: [
-      {
-        filename: "concept_polo.jpg",
-        caption: "A massive internal concept deck spread across a table.",
-        suggestedUse: "inline portrait",
-        altText: "A collection of vintage photographs, fabric swatches, and color palettes neatly arranged to tell a story."
-      }
-    ],
-    openQuestions: [
-      "What happens to cultural memory when commercial brands become its primary archivists?",
-      "Can nostalgia be decoupled from the problematic histories it often romanticizes?"
-    ],
-    processNotes: "The researcher learned the importance of challenging a subject's use of 'we'—realizing that corporate identity often masks individual ethical compromises."
-  }
 ];
 
 export const synthesisData: Synthesis = {
