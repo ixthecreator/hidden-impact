@@ -106,53 +106,75 @@ export const interviewees: Interviewee[] = [
   },
   {
     id: "event-planner",
-    displayName: "Event Planner",
-    interviewerName: "Student B",
-    interviewDate: "2026-03-15",
-    interviewFormat: "in-person",
-    interviewDurationMinutes: 80,
+    displayName: "Founder, The Drama Queen Events (Mumbai)",
+    interviewerName: "Shaan Patel",
+    interviewDate: "Spring 2026",
+    interviewFormat: "video call",
+    interviewDurationMinutes: null,
     anonymized: false,
-    realNameIfNotAnonymized: "Sarah Jenkins",
+    realNameIfNotAnonymized: "Khyati Patel",
     summary: {
-      oneLine: "The design of celebration is less about joy and more about controlling social choreography.",
-      shortAbstract: "This conversation examined the mechanics of temporary environments and social rituals. The planner revealed how space, lighting, and timeline are manipulated to force desired interactions. The most striking insight was how the illusion of organic celebration is entirely engineered, reducing attendees to predictable variables."
+      oneLine: "A Mumbai event designer whose first design move is reading the family, while the labor that builds her temporary spaces stays invisible.",
+      shortAbstract: "Khyati Patel runs an event design company in Mumbai handling everything from children's birthday parties to thousand-guest Indian weddings. The interview opened with an unexpected reframing: her process does not begin with mood boards or color palettes but with reading a family — its emotion, hierarchy, and the meaning of the occasion. From there she translates feeling into temporary space. The conversation surfaced two parallel forms of invisibility: the physical labor of mostly male crews who build the structures before guests arrive, and the months of conceptual decision-making that disappear into a seamless experience. She framed both with a stitching-seam metaphor — craftsmanship that is sometimes meant to be seen, sometimes meant to vanish."
     },
     persona: {
-      background: "Studied theater production before moving into corporate and high-end private event planning. Runs a boutique agency specializing in 'immersive experiences.'",
-      designPhilosophy: "Views events as temporary, high-stakes narratives. Believes that if people notice the design, she has failed; the design must be felt, not seen.",
-      voice: "Highly structured, precise, and practical. Uses logistical metaphors ('flow', 'bottleneck', 'transition') to describe human emotional states.",
-      contradictions: "Claimed her goal is to facilitate genuine human connection, yet her methods involve extreme, almost manipulative control over every environmental variable."
+      background: "Khyati Patel is the founder and owner of The Drama Queen Events, a Mumbai-based event planning and design company that handles a wide range of occasions from children's birthday parties and baby showers to thousand-person Indian weddings. She works at the intersection of family ritual and spatial design, leading a team that splits along gendered lines between creative direction (women) and physical build-out (men). The transcript does not specify her formal training or career path before founding the company; that biographical material would need to be confirmed in a follow-up.",
+      designPhilosophy: "Khyati frames her practice as translation rather than decoration — the work of converting a family's emotion into a temporary spatial experience that tells a story. She refuses the opposition between tradition and creativity, treating Indian cultural ritual as the starting material for contemporary design rather than a constraint on it. Her central claim is that designing something temporary produces something permanent: a few hours of designed space generate years of memory. She also treats productive friction with clients as evidence that creative pressure is being applied; absence of tension, for her, signals undercooked ideas.",
+      voice: "Plain, warm, and confident, with a tendency toward declarative reframings ('I don't see tradition and creativity as opposites'). She uses craft and textile metaphors — the stitching seam — when explaining labor, and storytelling vocabulary when explaining process. She does not use trade jargon. She acknowledges hard questions briefly but tends to redirect to what she can speak to as a designer; she does not dwell on the labor conditions of her physical crew.",
+      contradictions: "The clearest contradiction sits between her articulated awareness of invisible labor — the men who build the structures and disappear before guests arrive — and her framing of that invisibility as a craft choice ('sometimes the goal is for it to just disappear so everything feels effortless'). Aestheticizing invisibility as a stitching seam softens what is also a labor condition: night-shift work to meet morning-event schedules. She names the dynamic but does not theorize the cost."
     },
-    themes: ["social choreography", "temporary permanence", "engineered spontaneity"],
+    themes: ["invisible labor", "reading a family", "translational design", "temporary permanence", "gendered craft hierarchy", "tradition as source"],
     quotableLines: [
       {
-        quote: "If you want people to talk, you make the music slightly too loud so they have to lean in. It's not magic, it's acoustics.",
-        context: "Explaining how environment dictates social intimacy.",
-        themeTag: "social choreography"
+        quote: "I'm not asking about the event details right away, I'm trying to understand the family, the emotion behind the occasion, and what the celebration means to them.",
+        context: "Describing the very first move of her design process, in response to a question about how a project unfolds from client intake to finished event.",
+        themeTag: "reading a family"
+      },
+      {
+        quote: "Designing something temporary creates a permanent memory, and that's the real goal.",
+        context: "Closing reflection on what event design actually accomplishes, after discussing how clients sometimes underrecognize the form as design at all.",
+        themeTag: "temporary permanence"
+      },
+      {
+        quote: "Sometimes people appreciate seeing the craftsmanship, and sometimes the goal is for it to just disappear so everything feels effortless.",
+        context: "The stitching-seam metaphor she offered when asked whether clients recognize the gendered labor on her team equally.",
+        themeTag: "invisible labor"
+      },
+      {
+        quote: "If you don't have tension with a client, you're not pushing creative ideas enough.",
+        context: "Response to a question about how she navigates disagreement between her own design vision and what a client wants.",
+        themeTag: "translational design"
+      },
+      {
+        quote: "In India especially, culture is the starting point for design.",
+        context: "Her reframing of the question about balancing tradition and creative vision, refusing the binary the question implied.",
+        themeTag: "tradition as source"
+      },
+      {
+        quote: "The workers, mostly men on our team, are building structures, carrying furniture, and setting up installations. But all of that happens before the guests arrive.",
+        context: "Describing the gendered division on her team in response to a question about whether clients recognize all forms of labor equally.",
+        themeTag: "gendered craft hierarchy"
       }
     ],
     hiddenImpact: {
-      intendedOutput: "A seamless, three-hour corporate gala that feels elegant and engaging.",
-      actualImpact: "Reinforces social hierarchies by physically organizing bodies in space (VIP sections, table placements). It scripts human interaction, limiting the possibility for genuine, unmediated connection while producing the aesthetic of it.",
+      intendedOutput: "A temporary, memorable event environment that translates a family's emotion and cultural ritual into spatial experience — lighting, flowers, layout, and movement designed so the celebration tells a coherent story for the few hours it exists.",
+      actualImpact: "Beyond the event itself, the work shapes which forms of celebration become culturally legible as 'designed' versus invisible labor, and who gets credited as a designer at all — women in creative direction, not the men building structures overnight. Her practice also produces a specific Indian-modern aesthetic that circulates as aspirational across class lines in Mumbai, and authors the emotional architecture of family memory: the rituals her clients will remember, photograph, and reproduce. Quietly, her work sets templates for what middle- and upper-class Indian celebration is supposed to look and feel like.",
       whoIsAffected: [
-        "service workers executing the invisible labor",
-        "attendees navigating the scripted social space",
-        "the local neighborhood experiencing the temporary disruption"
+        "middle- and upper-class Indian families staging life-cycle rituals",
+        "mostly male event-build crews working overnight shifts in Mumbai",
+        "women event designers visible to clients as the creative face of the work",
+        "vendors and sub-contractors operating across the collaborative Mumbai event circuit",
+        "children whose early sensory memories are shaped by designed environments"
       ]
     },
-    imageAssets: [
-      {
-        filename: "floorplan_gala.jpg",
-        caption: "A top-down architectural floorplan with flow arrows.",
-        suggestedUse: "context image",
-        altText: "A blueprint of a ballroom showing circular tables and designated pathways for servers and guests."
-      }
-    ],
+    imageAssets: [],
     openQuestions: [
-      "What happens to the memory of an event when the experience is so heavily engineered?",
-      "Who truly owns the space during a temporary, privatized takeover?"
+      "How would Khyati's account of invisible labor change if the conversation included one of the men who build her structures, rather than only the designer who directs them?",
+      "If Indian cultural ritual is design's starting point rather than a constraint, what happens when clients arrive with London or Dubai references that conflict with that ritual — whose vision actually wins, and how often?",
+      "Does framing temporary work as producing permanent memory help theorize the form, or does it obscure the precarity of the workers whose temporary contracts make that memory possible?",
+      "What would it take, structurally, for the night-shift labor of Mumbai event construction to be recognized as design work rather than decoration-support?"
     ],
-    processNotes: "The interview forced the researcher to reconsider architecture not just as permanent structures, but as temporal interventions that dictate power dynamics."
+    processNotes: "The interview revised my central premise. I came in expecting to ask about aesthetics and cultural influence; the most theoretically loaded answer arrived in the first minute, when Khyati located her practice in empathy rather than visual decision-making. That reframed the whole conversation. I also noticed where my questioning faltered — when she described night-shift workers being briefly acknowledged but quickly subsumed into the stitching-seam metaphor, I let the topic move on rather than pressing. A future interview would slow down at that moment. I also note that Khyati and I share a surname; whether and how that shaped her candor with me is something I cannot independently assess and want to flag for the team."
   },
   {
     id: "long-museum-curator",
