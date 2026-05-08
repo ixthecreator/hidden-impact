@@ -50,59 +50,59 @@ export interface Synthesis {
 
 export const interviewees: Interviewee[] = [
   {
-    id: "vogue-art-director",
-    displayName: "Art Director, Vogue",
-    interviewerName: "Student A",
-    interviewDate: "2026-03-12",
-    interviewFormat: "video call",
-    interviewDurationMinutes: 65,
+    id: "beauty-brand-scaler",
+    displayName: "Creative Director and Brand Scaler, Beauty Industry",
+    interviewerName: "Charlie Ferdman",
+    interviewDate: "Spring 2026",
+    interviewFormat: "in-person",
+    interviewDurationMinutes: null,
     anonymized: true,
     realNameIfNotAnonymized: null,
     summary: {
-      oneLine: "Visual storytelling functions as an invisible framework dictating cultural aspirations.",
-      shortAbstract: "The interview explored the tension between artistic vision and commercial viability in high fashion publishing. The art director detailed how editorial layouts construct aspirational realities that subtly shift cultural norms. What surprised the interviewer was the sheer level of calculation involved in appearing spontaneous, revealing that effortless beauty requires immense, invisible labor."
+      oneLine: "A beauty brand scaler argues that conceptual design and technical execution are distinct art forms, and that collapsing them obscures who actually authored the work.",
+      shortAbstract: "The interviewee, a beauty brand scaler with a fine arts degree from the School of the Art Institute of Chicago, was interviewed by his daughter on the question of who counts as the 'designer' within a collaborative creative process. His central argument was that conceptual design and technical execution are distinct art forms, each requiring its own form of skill, but that the originator of a vision occupies a different role than the person technically producing it. He compared the relationship to that between a creative director and a marketing coordinator. The interview shifted the interviewer's view of design from a singular act to an ecosystem of interconnected roles."
     },
     persona: {
-      background: "Former graphic designer who transitioned to editorial fashion. Trained in classical typography but forced to constantly adapt to digital-first, social-driven visual economies.",
-      designPhilosophy: "They view their work as 'curated desire'—orchestrating images and texts not just to sell clothes, but to sell a very specific, unattainable lifestyle.",
-      voice: "Fast-paced, heavily reliant on industry jargon ('bleed', 'gutter', 'comp'), yet prone to sudden, introspective metaphors about 'weight' and 'space' in layouts.",
-      contradictions: "Insisted that fashion is becoming more democratic and inclusive, while simultaneously admitting that the core mechanics of editorial design still rely on maintaining exclusivity and distance."
+      background: "He is a beauty brand scaler whose career combines creative direction and business strategy on both the artistic and commercial sides of branding. He holds a fine arts degree from the School of the Art Institute of Chicago. The interviewer is his daughter, which shaped the conversation's tone and access. Specifics of his career path — current employer, named brands he has scaled, the trajectory from fine art training into beauty industry strategy — are not present in the available source material and would need to be confirmed in a follow-up.",
+      designPhilosophy: "He treats conceptual design and technical execution as separate art forms with separate kinds of authorship. Execution, in his view, requires skill, interpretation, and craftsmanship — but does not make the executor the originator of the design. The originator is whoever generates the initial idea, aesthetic direction, or conceptual framework. He uses the relationship between a creative director and a marketing coordinator to illustrate the distinction: the coordinator implements but does not author. By extension, he sees creative production as an ecosystem of specialized roles rather than a single act of authorship.",
+      voice: "Source material is the interviewer's reflection only; no transcript was provided, so the interviewee's verbatim register, vocabulary, and metaphors cannot be characterized with the specificity this field requires. The single analytical move preserved through paraphrase is his use of the creative director / marketing coordinator analogy to clarify authorship hierarchy. A recorded follow-up would be needed to populate this field properly.",
+      contradictions: "A potential tension surfaces in his framing: he insists technical execution is an art form 'entirely of its own,' yet positions it categorically below conceptual design in the authorship hierarchy. This implies execution's autonomy is rhetorical rather than structural — granted in language but withheld in attribution. Whether he would recognize this tension when pressed cannot be determined from the reflection alone."
     },
-    themes: ["manufactured spontaneity", "invisible labor", "aspirational curation", "commercial tension"],
+    themes: ["authorship hierarchy", "vision vs execution", "invisible labor", "creative ecosystem", "specialized creativity"],
     quotableLines: [
       {
-        quote: "We aren't designing pages. We are designing the feeling of not having what's on the page.",
-        context: "Discussing the core purpose of a fashion editorial spread.",
-        themeTag: "aspirational curation"
+        quote: "Conceptual design and technical execution are two entirely different art forms — both require skill, but they are not the same act.",
+        context: "Paraphrased from his central argument about creative authorship, as recounted by the interviewer. No verbatim transcript was made.",
+        themeTag: "vision vs execution"
       },
       {
-        quote: "The easiest looking shoots take the most bodies in the room to pull off.",
-        context: "Revealing the logistical reality of 'effortless' beauty.",
-        themeTag: "invisible labor"
+        quote: "The person who originates the idea is not the same as the person who technically produces it — and that distinction matters.",
+        context: "Paraphrased from his framing of authorship hierarchy within creative teams. No verbatim transcript was made.",
+        themeTag: "authorship hierarchy"
+      },
+      {
+        quote: "Think of it like a creative director and a marketing coordinator — one authors the vision, the other implements it.",
+        context: "The analogy he offered to clarify why execution skill does not equal conceptual authorship. Paraphrased.",
+        themeTag: "creative ecosystem"
       }
     ],
     hiddenImpact: {
-      intendedOutput: "A cohesive, visually arresting 12-page magazine spread featuring the fall collection.",
-      actualImpact: "Normalizes specific body standards and class indicators as the cultural baseline. It actively manufactures a state of perpetual lack in the reader, driving consumption not of products, but of identity.",
+      intendedOutput: "He scales beauty brands by combining creative direction and business strategy, translating aesthetic and conceptual decisions into commercially viable brand identity, positioning, and growth. The deliverable is a brand that performs both as an aesthetic object and as a market entity.",
+      actualImpact: "Beyond the brands he scales, his articulated framework redistributes credit within creative industries: by drawing a categorical line between conceptual authorship and technical execution, he reinforces a hierarchy in which the originator of vision is the recognized 'designer' and the executor is recognized as a different kind of artist. Whether his daily work in beauty branding also shapes broader cultural categories — what counts as beautiful, who is targeted, what aspirations circulate — is not addressed in the available source material and remains a critical gap in this profile that a follow-up should close.",
       whoIsAffected: [
-        "young women consuming fashion media",
-        "freelance creatives adjusting portfolios to match this standard",
-        "clothing manufacturers interpreting these trends"
+        "technical executors and craftspeople in beauty production whose authorship is reframed by his hierarchy",
+        "creative directors who occupy the conceptual-author role his framework defends",
+        "marketing and operations staff cast as implementers rather than originators"
       ]
     },
-    imageAssets: [
-      {
-        filename: "moodboard_vogue.jpg",
-        caption: "A cluttered physical moodboard with fabric swatches and tear sheets.",
-        suggestedUse: "hero image",
-        altText: "A cork board covered in overlapping magazine cutouts, fabric pieces, and handwritten notes."
-      }
-    ],
+    imageAssets: [],
     openQuestions: [
-      "Can editorial design truly subvert the commercial imperatives it relies on for funding?",
-      "How does the digitalization of fashion imagery change the 'weight' the art director spoke of?"
+      "If technical execution is 'an art form entirely of its own,' why does the executor not also count as a designer of that form?",
+      "How does his framework, applied to a beauty industry that depends on formulators, packaging engineers, and supply-chain craftspeople, redistribute or withhold credit in practice?",
+      "What changes when the interviewer is the interviewee's daughter — what gets said, what gets softened, what gets unsaid?",
+      "Does his analogy between creative director and marketing coordinator actually hold up under pressure: do coordinators make creative decisions that quietly fold into the director's recognized authorship?"
     ],
-    processNotes: "The interviewer realized their assumption that the art director acted alone was deeply flawed. The process revealed an intense hierarchy of approval that dilutes individual authorship."
+    processNotes: "This profile is built from a reflection essay only; no transcript was made available for processing. That single decision shapes everything downstream: there are no verbatim quotes, the interviewee's voice and self-contradictions can only be inferred at one remove, and several schema fields had to be left null. The relationship between interviewer and interviewee — daughter and father — is the most consequential methodological condition of this interview and was not theorized in the reflection itself. A future iteration would either record and transcribe a follow-up call with consent, or annotate the reflection with marginal notes specifying what was paraphrased versus what is the interviewer's own framing."
   },
   {
     id: "event-planner",
